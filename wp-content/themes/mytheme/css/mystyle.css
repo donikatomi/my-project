@@ -1,11 +1,19 @@
 footer{
-    position: fixed;
+    /* position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 230px;
-    overflow: scroll;
+    height: 200px;
+    overflow: scroll; */
     background-color: #333;
     color: rgba(255, 255, 255, 0.836);
     text-align: center;
+}
+.carousel-img{
+    width: 1100px!important;
+    height: 500px;
+}
+.content{
+    margin-bottom: 30px;
+    margin-top: 30px;
 }

@@ -10,10 +10,10 @@ function wpbootstrap_enqueue_styles() {  //including bootstrap, css and js files
 }
 add_action('wp_enqueue_scripts', 'wpbootstrap_enqueue_styles'); 
 
-function awesome_theme_setup() {
+function my_theme_setup() {
     add_theme_support( 'menus' );
     register_nav_menu( 'primary', 'Primary Header Navigation' );
 }
-add_action( 'init', 'awesome_theme_setup' );
+add_action( 'init', 'my_theme_setup' );
 
 ?>
